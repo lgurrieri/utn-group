@@ -1,0 +1,42 @@
+COMANDOS PARA GIT BASH
+git config --global user.name: configurar nombre
+git config --global user.email: configurar correro electronico
+git config --list : muestra la lista de configuraciones
+ls: listar archivos 
+	-l listar 
+	-a orden alfabetico hasta los ocultos
+	-h formato humano
+
+cd: cambio de directorio
+cd.. volver una carpeta
+rm "nombre archivo a borrar" 
+mv renombrar archivos
+cp copiar archivos
+pwd saber donde estar
+mkdir crear carpeta donde estoy parado
+history muestra todo lo ejecutado en forma reciente
+clear limpia consola
+git init . creamos repositorio
+touch "nombre de archivo" crear un archivo vacio
+vim editor de texto
+
+salir del editor: esc :wq
+
+cat muestra lo que tiene el archivo
+git status: estado actual del repositorio
+git commit -m : agregar un mensaje
+git log: muestra autor y fecha y el mnesaje y dice en que rama se hizo ese commit
+vim 
+git add . :agrega todo los archivosmk
+git log head~1 (ve los cambios)
+git diff head~1(muestra los cambios dentro de los archivos)
+git log --since (ve los cambios)
+pull resquest (mesclar)
+mersh
+reversh
+git branch -a(ver ramas)
+git branch(ramas locales)
+git fetch --all(se fija todo lo que hay arriva)
+git branch feature(nueva rama)
+git chekout -b feature(crea y se traslada)
+git push origin Head(crea la branchy la sube)
